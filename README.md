@@ -32,7 +32,7 @@ If referring directly to the code instead of a pinned version, take note that fr
 
 ```hcl
 module "waf" {
-  source = "umotif-public/waf-webaclv2/aws"
+  source = "Hardeep18/wafv2/aws"
   version = "~> 4.0.0"
 
   name_prefix = "test-waf-setup"
@@ -390,7 +390,7 @@ module "waf" {
     aws = aws.us-east
   }
 
-  source = "umotif-public/waf-webaclv2/aws"
+  source = "Hardeep18/wafv2/aws"
   version = "~> 4.0.0"
 
   name_prefix = "test-waf-setup-cloudfront"
